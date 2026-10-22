@@ -1,0 +1,116 @@
+Business Insights and Recommendations
+This document summarizes the initial findings from my Retail Sales &
+Profitability Power BI dashboard and identifies follow-up analyses that
+could support better business decisions.
+Note: These are descriptive observations from the current
+dashboard, not proof of why a result occurred. Figures are approximate
+and should be checked with all slicers reset to All before
+publication.
+
+1. Overall Sales and Profitability
+Finding: The dashboard displays approximately 2.33M in sales,
+292.30K in profit, and a 12.56% profit margin.
+
+Business meaning: The business is profitable overall in the current
+view, but an overall margin can hide products, regions, or orders that
+perform poorly.
+
+Recommendation: - Monitor sales, profit, and margin together. -
+Compare profit margin across categories, regions, and customer
+segments. - Calculate the total profit impact of loss-making orders
+before deciding where to focus.
+2. Product Category Performance
+Finding: Technology has the highest sales among the three displayed
+categories.
+
+Business meaning: Technology is a major sales contributor, but the
+highest-selling category is not necessarily the most profitable.
+
+Recommendation: - Compare profit and margin across Technology,
+Furniture, and Office Supplies. - Identify products with high sales but
+relatively low profit. - Review discount levels and product mix before
+recommending promotions.
+3. Regional Sales Performance
+Finding: The dashboard shows the West and East as the largest
+regional contributors to sales. Approximate values displayed are:
+
+  Region        Sales   Share of sales
+  West        739.81K            31.8%
+  East        691.83K            29.7%
+  Central     503.17K            21.6%
+  South       391.72K            16.8%
+
+Business meaning: West and East account for the largest shares of
+sales in the current view. The South has the smallest share, but lower
+sales alone do not prove poor performance.
+
+Recommendation: - Compare regional profit and profit margin, not
+just sales. - Investigate product mix, customer mix, and discounts by
+region. - Explore reasons for the South's lower sales using available
+data before suggesting changes.
+4. Customer Segment Performance
+Finding: Consumer customers contribute approximately 1.17M, or
+50.32%, of sales. Corporate contributes around 30.77%, and Home Office
+around 18.92%.
+
+Business meaning: Consumer is the largest sales segment, but sales
+share alone does not show which segment is most profitable.
+
+Recommendation: - Compare profit, margin, order count, and average
+sales per order across segments. - Identify which products perform well
+within each segment. - Evaluate promotions based on their effect on
+profit as well as sales.
+5. Sub-Categories with Negative Profit
+Finding: Tables and Bookcases appear to have negative total profit
+in the current sub-category profit chart.
+
+Business meaning: These areas may be reducing overall profitability,
+but the chart does not reveal the cause.
+
+Recommendation: - Review product- and order-level sales, profit,
+quantity, and discounts. - Investigate shipping costs or other cost
+fields if available. - Check whether losses are concentrated in a few
+orders or occur broadly. - Consider pricing, discount, or product-mix
+changes only after investigating the drivers.
+6. Sales Trend Over Time
+Finding: The yearly sales chart shows an upward pattern across the
+displayed years.
+
+Business meaning: Sales appear to rise over the period shown.
+However, the latest year may be incomplete, which can make comparisons
+misleading.
+
+Recommendation: - Check the date coverage for each year. - Compare
+equivalent periods across years. - Review profit and margin alongside
+sales growth. - Use monthly or quarterly trends to investigate unusual
+changes if the data supports it.
+7. Loss-Making Orders
+Finding: The dashboard displays approximately 1K loss-making orders.
+The measure counts distinct orders where the combined profit across
+their rows is negative.
+
+Business meaning: This identifies orders worth investigating, but
+the count alone does not show the financial impact.
+
+Recommendation: - Calculate loss-making orders as a percentage of
+all distinct orders. - Calculate the combined profit or loss associated
+with these orders. - Break them down by product sub-category, region,
+customer segment, discount, and ship mode. - Prioritize the largest
+losses rather than focusing only on the number of affected orders.
+Recommended Next Steps
+1. Compare profit margins across categories and regions.
+2. Investigate loss-making sub-categories and orders.
+3. Check whether discount levels are associated with lower profit.
+4. Confirm whether the latest year is complete before describing
+   year-on-year growth.
+5. Validate all KPI figures, currency units, and date filters before
+   publishing.
+Conclusion
+The dashboard provides an initial view of retail sales and
+profitability. The current observations highlight regional sales
+concentration, the importance of the Consumer segment, possible
+sub-category losses, and orders with negative combined profit.
+
+The recommendations are investigation priorities, not proven causal
+conclusions. Further analysis is needed before changing pricing,
+discounting, promotions, or product strategy.
